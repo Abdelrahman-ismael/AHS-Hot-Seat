@@ -1,0 +1,611 @@
+/*===============================================================
+/* PrimaryColor: #f15e55  red        */
+/* SecondryColor: #202d62  blue     */
+/*=============================================================*/
+
+
+
+/*===============================================================
+=========  Genral Propertires
+================================================================*/
+/*======= ScroolBar ====*/
+body::-webkit-scrollbar {
+    background-color: #202d621f;
+    width: 7px;
+    right: -10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #202d62;
+    border-radius: 8px;
+    right: -10px;
+}
+
+/*======= Btn ====*/
+a.btn-default,
+button.btn-default,
+div.btn-default {
+    background: #f15e55 !important;
+}
+
+body.active-light-mode a.btn-default.btn-border,
+body.active-light-mode button.btn-default.btn-border {
+    color: #fff;
+}
+
+/*==== Model ===*/
+.modal {
+    z-index: 9999999999;
+}
+
+.modal button.close {
+    border-radius: 3px;
+    font-size: 20px;
+    padding: 0px 10px;
+    border: 1px solid #828282;
+}
+
+
+/*==== Footer ===*/
+.footer-style-default .footer-top {
+    padding: 30px 0px;
+    border-bottom: 1px solid #959595;
+}
+
+.copyright-style-one {
+    padding: 10px 0px;
+}
+
+/*=========Global =====*/
+.underline-title-center {
+    position: relative;
+    width: 50px;
+    height: 4px;
+    background-color: #202d62;
+    margin: -10px auto;
+    border-radius: 5px;
+}
+
+.underline-title-left {
+    position: relative;
+    width: 50px;
+    height: 4px;
+    background-color: #202d62;
+    margin: -10px 0px;
+    border-radius: 5px;
+}
+
+.rn-section-gap {
+    padding: 60px 0 !important;
+}
+
+.height-350 {
+    height: 350px;
+}
+
+a.btn.btn-link {
+    font-size: 14px !important;
+}
+
+.text-underline {
+    text-decoration: underline !important;
+}
+
+label {
+    display: block;
+}
+
+/*===============================================================
+=========  Home Page
+================================================================*/
+
+/*===== Navbar =====*/
+.mainmenu-nav .mainmenu li.has-droupdown .submenu {
+    min-width: 175px !important;
+}
+
+.mainmenu>li>a {
+    color: #202d62 !important;
+    font-size: 18px !important;
+    cursor: pointer;
+    text-transform: capitalize;
+    /* font-weight: 600 !important; */
+}
+
+.mainmenu-nav .mainmenu>li>a:hover,
+.mainmenu-nav .mainmenu>li>a.active {
+    color: #131b3b !important;
+}
+
+/*===== Slider =====*/
+
+.height-100vh {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+/*======== About us =========*/
+@media only screen and (min-width: 1170px) {
+    .cd-headline {
+        font-size: 30px
+    }
+}
+
+/*================ Pricing =================*/
+.rn-pricing {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px 0px #00000059;
+    margin-top: 40px;
+    border-radius: 10px !important;
+    transition: all 0.3s ease-in-out;
+}
+
+/* recommended */
+.rn-pricing .flag {
+    position: absolute;
+    z-index: 99;
+    top: 25px;
+    right: -160px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .0625rem;
+    width: 425px;
+    height: 30px;
+    line-height: 30px;
+    background-color: rgb(80, 202, 55);
+    color: #fff;
+    transform: rotate(35deg);
+}
+
+.rn-pricing:hover {
+    box-shadow: 0px 0px 20px 0px #000000b9;
+}
+
+.rn-pricing .pricing-table-inner .pricing-header {
+    border-bottom: 3px solid #000;
+}
+
+.rn-pricing .pricing-table-inner .pricing-header .title {
+    margin-bottom: 0;
+}
+
+.rn-pricing .pricing-table-inner .pricing-body {
+    min-height: 310px;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .rn-pricing .pricing-table-inner .pricing-body {
+        min-height: 420px;
+    }
+}
+
+
+.rn-pricing .pricing-table-inner .pricing-header .old-price span.price {
+    text-decoration: line-through !important;
+}
+
+.rn-pricing .pricing-table-inner .pricing-header .discounted-price span.currency {
+    font-size: 16px;
+}
+
+.rn-pricing .pricing-table-inner .pricing-header .discounted-price span.price {
+    font-size: 35px;
+}
+
+/*======= Contact Us ====*/
+.info-wrap .dbox {
+    width: 100%;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 25px;
+}
+
+.contact-form-1 .form-group {
+    text-align: left;
+    position: relative;
+}
+
+.form-check {
+    padding: 0;
+}
+
+/*==== To Top Btn ======*/
+.rn-back-top {
+    box-shadow: 0px 0px 10px 0px #724b4ba8;
+}
+
+
+
+/*===============================================================
+=========  Profile Page
+================================================================*/
+
+
+/*======== Header ========*/
+.height-550 {
+    height: 550px;
+}
+
+@media (max-width: 767.98px) {
+    .height-550 {
+        height: 350px;
+    }
+}
+
+.slider-perosonal-portfolio .inner {
+    margin-top: 125px;
+}
+
+/*======== Header ========*/
+.info-wrap .dbox {
+    width: 100%;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 25px;
+}
+
+.info-wrap .dbox .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid rgb(0 0 0 / 44%);
+    margin-right: 10px;
+}
+
+.info-wrap .dbox .icon i {
+    font-size: 20px;
+    color: rgb(145, 145, 145);
+}
+
+.info-wrap .dbox .text {
+    width: calc(100% - 50px);
+}
+
+.info-wrap .dbox .text p {
+    margin: 0;
+}
+
+
+/*===============================================================
+=========  Profile Page
+================================================================*/
+.clltoaction-style-default.style-7 .content .subtitle {
+    max-width: inherit !important;
+}
+
+/*===============================================================
+=========  Order Page
+================================================================*/
+
+/* payment Form */
+.payment-form .content {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+    background-color: white;
+}
+
+.payment-form .block-heading {
+    padding-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.payment-form .block-heading p {
+    text-align: center;
+    max-width: 420px;
+    margin: auto;
+    opacity: 0.7;
+}
+
+.payment-form.dark .block-heading p {
+    opacity: 0.8;
+}
+
+.payment-form .block-heading h1,
+.payment-form .block-heading h2,
+.payment-form .block-heading h3 {
+    margin-bottom: 1.2rem;
+    color: #3b99e0;
+}
+
+.payment-form form {
+    border-top: 2px solid #202d62;
+    box-shadow: 0px 2px 57px rgba(109, 109, 109, 0.2);
+    background-color: #ffffff;
+    padding: 0;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.payment-form .title {
+    font-size: 1em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.8em;
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+
+.payment-form .products {
+    background-color: #f7fbff;
+    padding: 25px;
+}
+
+.payment-form .products .item {
+    margin-bottom: 1em;
+}
+
+.payment-form .products .item-name {
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+.payment-form .products .item-description {
+    font-size: 0.8em;
+    opacity: 0.6;
+}
+
+.payment-form .products .item p {
+    margin-bottom: 0.2em;
+}
+
+.payment-form .products .price {
+    float: right;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+.payment-form .products .total {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    padding-top: 19px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.payment-form .card-details {
+    padding: 25px 25px 15px;
+}
+
+.payment-form .card-details label {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 7px;
+    color: #79818a;
+    text-transform: uppercase;
+}
+
+
+.payment-form .date-separator {
+    position: absolute;
+    bottom: 0px;
+    font-size: 20px;
+}
+
+@media (min-width: 576px) {
+    .payment-form .title {
+        font-size: 1.6em;
+    }
+
+    .payment-form .products {
+        padding: 40px;
+    }
+
+    .payment-form .products .item-name {
+        font-size: 1em;
+    }
+
+    .payment-form .products .price {
+        font-size: 1em;
+    }
+
+    .payment-form .card-details {
+        padding: 40px 40px 30px;
+    }
+
+}
+
+
+
+/*======== Radio Style =======*/
+
+.plans {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    max-width: 970px;
+    padding: 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 20px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.plans .plan input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+}
+
+.plans .plan {
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.plans .plan .plan-content {
+    padding: 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 2px solid #e1e2e7;
+    border-radius: 10px;
+    position: relative;
+}
+
+.plans .plan .plan-content img {
+    margin-right: 30px;
+    height: 72px;
+}
+
+.plans .plan .plan-details span {
+    margin-bottom: 10px;
+    display: block;
+    font-size: 20px;
+    line-height: 24px;
+    color: #252f42;
+}
+
+.plans .plan .plan-details p {
+    color: #646a79;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.plan-content .form-group input {
+    height: 50px !important;
+    padding: 0px 10px;
+    font-size: 14px !important;
+}
+
+.plan-content .form-group .btn-default {
+    padding: 0px 15px;
+}
+
+.plans .plan .plan-content:hover {
+    -webkit-box-shadow: 0px 3px 5px 0px #e8e8e8;
+    box-shadow: 0px 3px 5px 0px #e8e8e8;
+}
+
+.plans .plan input[type="radio"]:checked+.plan-content:after {
+    content: "";
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    background: #216fe0;
+    right: 20px;
+    top: 20px;
+    border-radius: 100%;
+    border: 3px solid #fff;
+    -webkit-box-shadow: 0px 0px 0px 2px #06f;
+    box-shadow: 0px 0px 0px 2px #06f;
+}
+
+.plans .plan input[type="radio"]:checked+.plan-content {
+    border: 2px solid #216ee0;
+    background: #eaf1fe;
+    -webkit-transition: ease-in 0.3s;
+    -o-transition: ease-in 0.3s;
+    transition: ease-in 0.3s;
+}
+
+@media screen and (max-width: 991px) {
+    .plans {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        padding: 40px;
+    }
+
+    .plans .plan {
+        width: 100%;
+    }
+
+    .plan.complete-plan {
+        margin-top: 20px;
+    }
+
+    .plans .plan .plan-content .plan-details {
+        width: 70%;
+        display: inline-block;
+    }
+
+    .plans .plan input[type="radio"]:checked+.plan-content:after {
+        top: 25px;
+        -webkit-transform: translate(-50%);
+        -ms-transform: translate(-50%);
+        transform: translate(-50%);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .plans .plan .plan-content .plan-details {
+        width: 60%;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .plans .plan .plan-content img {
+        margin-bottom: 20px;
+        height: 56px;
+        -webkit-transition: height 0.4s;
+        -o-transition: height 0.4s;
+        transition: height 0.4s;
+    }
+
+    .plans .plan input[type="radio"]:checked+.plan-content:after {
+        top: 20px;
+        right: 10px;
+    }
+
+    .plans .plan .plan-content .plan-details {
+        width: 100%;
+    }
+
+    .plans .plan .plan-content {
+        padding: 20px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+        align-items: baseline;
+    }
+}
+
+/* inspiration */
+.inspiration {
+    font-size: 12px;
+    margin-top: 50px;
+    position: absolute;
+    bottom: 10px;
+    font-weight: 300;
+}
+
+.inspiration a {
+    color: #666;
+}
+
+@media screen and (max-width: 767px) {
+
+    /* inspiration */
+    .inspiration {
+        display: none;
+    }
+}
+
+/*=========== Zelle btn Style ============*/
+button.btn-default.zelle-btn {
+    background-color: #6d1ed4 !important;
+    border: 1px solid #6d1ed4 !important;
+    color: #fff !important;
+}
+
+button.btn-default.venmo-btn {
+    background-color: #008cff !important;
+    border: 1px solid #008cff !important;
+    color: #fff !important;
+}

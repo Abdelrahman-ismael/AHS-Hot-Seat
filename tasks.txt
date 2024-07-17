@@ -1,0 +1,69 @@
+Primary  ==> Blue color: #2662ab ;
+secondry ==> Yellow Color: #ebb010
+
+
+
+Mohamed Makram:
+=====================
+- Fix Appoiintment Schedual Google arabic
+- add animation to profile page
+-
+-
+-
+
+
+
+
+
+Tasks:
+==============
+- Fix search bar in orders page
+- Add mail at compelte order (for user , admin)
+- Add SSL Certificate
+-
+-
+-
+-
+-
+-
+
+
+
+Haitham taskis :
+===================
+- Google schedule meeting btn
+-
+-
+-
+-
+-
+-
+
+
+Advanced feature in blueskyint project:
+==================================
+1- Add Vue router in admin panel
+2- Add sign in page SPA & link it with
+5- Logo in min-header in screen sizes
+6- use package formData
+7- Add multi actions
+8-
+
+
+Mailing
+==========
+- Forget Password
+- Contact Us
+
+- Mail user at create order
+- Mail admin at create order
+
+- Mail user at new registration
+- Mail admin at new registration
+
+- Mail at change order status to payment issue
+- Mail at change order status to expired
+
+
+
+
